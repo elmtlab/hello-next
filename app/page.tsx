@@ -18,7 +18,7 @@ export default function Page() {
           {/* <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent" /> */}
           <div className={styles.shape} />
 
-          <p className={`${single_day.className}`}>
+          <p className={`${lusitana.className}`}>
             <strong>Welcome to Acme.</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course

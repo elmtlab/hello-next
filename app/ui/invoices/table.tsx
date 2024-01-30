@@ -19,10 +19,7 @@ export default async function InvoicesTable({
         <div className="rounded-lg bg-gray-50 p-2 md:pt-0">
           <div className="md:hidden">
             {invoices?.map((invoice) => (
-              <div
-                key={invoice.id}
-                className="mb-2 w-full rounded-md bg-white p-4"
-              >
+              <div key={invoice.id} className="mb-2 w-full rounded-md bg-white p-4">
                 <div className="flex items-center justify-between border-b pb-4">
                   <div>
                     <div className="mb-2 flex items-center">
@@ -44,7 +41,7 @@ export default async function InvoicesTable({
                     <p className="text-xl font-medium">
                       {formatCurrency(invoice.amount)}
                     </p>
-                    <p>{formatDateToLocal(invoice.date)}</p>
+                    <p>{formatDateToLocal(invoice.date)}</p>\
                   </div>
                   <div className="flex justify-end gap-2">
                     <UpdateInvoice id={invoice.id} />
